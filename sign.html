@@ -46,7 +46,7 @@
                 </div>
                 <div>
                     <label for="cont">Contact no:</label><br>
-                    <input type="tel" pattern="\d*" id="cont">
+                    <input type="tel" pattern="\d*" maxlength="11" minlength="11" id="cont">
                 </div>
                 <div>
                     <label for="email">E-mail:</label><br>
@@ -61,7 +61,7 @@
                     <input type="password" id="password" required>
                 </div>
                 <div>
-                    <button type="submit">Login</button>
+                    <button type="submit" onclick="alert('popup')">Login</button>
                 </div>
                 <div>
                     <!-- linked to another page -->
