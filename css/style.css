@@ -73,9 +73,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /* caro style  */
-.main-caro{
+/* .main-caro{
 
-}
+} */
 .im1 img{
     width: 100%;
     height: 100vh;
@@ -224,6 +224,7 @@ hr{
 }
 
 
+/* sign up login form style  */
 .frm{
     display: flex;
     margin: auto;
@@ -251,9 +252,15 @@ hr{
     cursor: pointer;
     background-color: rgba(61, 59, 55, 0.555);
 }
+
+
+/* pd style  */
+.card-box{
+    margin: 2px 0 2px 0;
+}
 .p-card{
     display: flex;
-    width: 90%;
+    width: 60%;
     margin: auto;
 
 }
@@ -267,18 +274,91 @@ hr{
 }
 .con img{
     width: 100%;
+    transition: transform 0.6s ease-in-out;
+}
+.con img:hover{
+    transform: scale(1.4);
+}
+.grp2{
+    width: 100%;
 }
 .grp2 p{
     line-height: 35px;
 }
-.grp2 button{
+.grp2 .bt{
+    padding: 8px 0;
+}
+.grp2 .bt button{
     cursor: pointer;
     color: rgb(65, 65, 65);
     padding: 5px;
     border: none;
     border-radius: 4px;
 }
-.grp2 button:hover{
+.grp2 .bt button:hover{
     background-color: #00000063;
+    color: #000;
+}
+/* .grp3{
+    position: relative;
+    top: 0;
+} */
+
+/* details group1  */
+.block{
+    display: flex;
+}
+.block1 {
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  .block1 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .block1 > ul > li {
+    background-color: #f9f9f9;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+  .block1 > ul > li:hover {
+    background-color: #9c9c9c;
+  }
+  .block1 ul ul {
+    display: none;
+    padding-left: 20px;
+    background-color: #f9f9f9;
+  }
+  .block1 ul ul li {
+    padding: 8px;
+    background-color: #f9f9f9;
+    color: black;
+    cursor: pointer;
+  }
+  .block1 ul ul li:hover {
+    background-color: #ddd;
+  }
+  .block1 ul .active > ul {
+    display: block;
+  }
+.block2{
+    width: 100%;
+}
+/* breadcrumb style  */
+.breadcrumb ol{
+    display: inline-flex;
+    list-style: none;
+    margin: 5px;
+}
+.breadcrumb ol li{
+    margin:0 5px 0 5px;
+}
+.breadcrumb ol li a{
+    color: #00000090;
+}
+.breadcrumb ol li a:hover{
     color: #000;
 }
